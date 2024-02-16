@@ -1,0 +1,462 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.nav-link{
+  color: black;
+}
+
+ 
+ 
+ .navbar{
+   
+   width: 100%;
+  
+ }
+
+ .carousel{
+   
+    position: relative;
+    min-height: 600px;
+    max-height: 1600px;
+    width: 100%;
+    
+ }
+ .cimg{
+   width: 100%;
+   min-height: 600px;
+   max-height: 1600px;
+ }
+ .cimg img{
+   width: 100%;
+   min-height: 600px;
+   max-height: 1600px;
+   filter: brightness(50%);
+   opacity: 0.7;
+ }
+ .carousel h1{
+   color: white;
+   font-weight: bolder;
+   filter: brightness(100%);
+ }
+ .carousel p{
+   width: 50%;
+   color: white;
+   
+ }
+ .hbtn{
+   width: 80%;
+   position: absolute;
+   bottom: 30%;
+   left: 8%;
+   height:200px ;
+ }
+ .btn1{
+   padding:1% 2%;
+   background-color: #16d9f3;
+ }
+ .btn2{
+   padding:1% 2%;
+   margin-left: 1%;
+ }
+ .btn1:hover, .btn2:hover{
+  opacity: 0.7;
+ }
+ 
+ 
+
+
+    .aboutus {
+       display: flex;
+       flex-direction: row;
+    }
+    .image{
+        max-width: 50%;
+     }
+     .aboutjpg{
+        max-width: 80%;
+     }
+     .content{
+        margin-top: 20px;
+        max-width: 50%;
+     }
+     .head1{
+        color:  #40c4ca;font-weight: bold;
+        margin-bottom: 0%;
+     }
+     .content h1{
+        margin-bottom: 20px;
+     }
+     .content ul{
+        list-style-type: none;
+     }
+     .about1-2{
+        margin-left: 15px;
+     }
+     .rdbtn{
+        background-color: #40c4ca;
+        color: white;
+        padding: 10px 23px;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+     }
+     .rdbtn:hover{
+        opacity: 0.7;
+        outline: none;
+        border: none;
+     }
+     .rdbtn:active{
+        opacity: 0.4;
+        outline: none;
+        border: none;
+     }
+     .imgcontainer{
+        width: 1200px;
+        
+        height: 500px;
+        display: flex;
+     }
+     .div2{
+        width: 600px;
+       
+     }
+     .div3{
+        width: 600px;
+       padding-right: 20px;
+       position: relative;
+       
+     }
+     .note3{
+        height: 60px;
+       
+        width: 160px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 10%;
+        right: 0%;
+        
+     }
+     .div6{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        
+     }
+     .div7{
+        width: 100%;
+        height: 50%;
+       
+        display: flex;
+        flex-direction: row;
+     }
+     .div4{
+        width: 50%;
+        height: 100%;
+        position: relative;
+        
+     }
+     .note4{
+        height: 60px;
+       
+        width: 160px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 20%;
+        right: 0%;
+        
+     }
+     .div4 img{
+        
+        width: 100%;
+        
+     }
+     .div6 img{
+       
+        width: 100%;
+       
+     }
+     .note6{
+        height: 60px;
+       
+        width: 160px;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        bottom: 9%;
+        right: 0%;
+        
+     }
+     .div3 img{
+       height: 90%;
+        width: 100%;
+        
+     }
+     .popular{
+        display: flex;
+        flex-direction: row;
+     }
+     .courses{
+        width: 30%;
+        background-color: rgb(242, 255, 251);
+        margin: 3%;
+     }
+     .courses .col1{
+        width: 100%;
+        position: relative;
+     }
+     .col1-note{
+        position: absolute;
+        width: 85%;
+        height: 30px;
+        background-color: #34abb1;
+        border-radius: 25px;
+        right: 5%;
+        bottom: 10%;
+     }
+     .col1 img{
+        width: 100%;
+     }
+     .instructors{
+        display: flex;
+        flex-direction: row;
+     }
+     .idetails{
+        width: 22%;
+        background-color: rgb(242, 255, 251);
+        margin: 2%;
+     }
+     .iimg{
+        width: 100%;
+        position: relative;
+     }
+     .social{
+        position: absolute;
+        background-color: rgb(242, 255, 251);
+        bottom: -9%;
+        left: 18%;
+        width: 50%;
+     }
+     .iimg img{
+        width: 100%;
+     }
+     
+     .footer{
+      background-color: rgb(35, 33, 60);
+      color: white;
+      padding-top: 5%;
+     }
+
+
+
+
+
+
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+    .aboutus {
+       display: flex;
+       flex-direction: row;
+    }
+    .image{
+        max-width: 50%;
+     }
+     .aboutjpg{
+        max-width: 100%;
+     }
+     .content{
+        margin-left: 20px;
+        max-width: 50%;
+     }
+     .imgcontainer{
+        width: 800px;
+        flex-direction: row;
+        height: 400px;
+        display: flex;
+     }
+     .div2{
+        width: 400px;
+       
+     }
+     .div3{
+        width: 400px;
+       
+     }
+    
+     .div6{
+        width: 100%;
+        height: 50%;
+        
+     }
+     .div7{
+        width: 100%;
+        height: 50%;
+       
+        display: flex;
+        flex-direction: row;
+     }
+     .div4{
+        width: 50%;
+        height: 100%;
+        
+     }
+     .div4 img{
+        
+        width: 100%;
+        
+     }
+     .div6 img{
+        
+        width: 100%;
+     }
+     .div3 img{
+       height: 90%;
+        width: 100%;
+     }
+
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .aboutus {
+       display: flex;
+       flex-direction: row;
+    }
+    .image{
+        max-width: 50%;
+     }
+     .aboutjpg{
+        max-width: 100%;
+     }
+     .content{
+        margin-left: 20px;
+        max-width: 50%;
+     }
+     .imgcontainer{
+        width: 600px;
+        flex-direction: row;
+        height: 400px;
+        display: flex;
+     }
+     .div2{
+        width: 300px;
+       
+     }
+     .div3{
+        width: 300px;
+       
+     }
+     .content h1 , h5{
+        text-align: start;
+    }
+    .instructors{
+        display: flex;
+        flex-direction: column;
+     }
+     .idetails{
+        width: 78%;
+        background-color: rgb(242, 255, 251);
+        margin: 2%;
+     }
+     
+     
+     .social{
+        
+        width: 0%;
+     }
+
+}
+@media screen and (min-width:5px) and (max-width: 600px) {
+    .aboutus {
+       display: flex;
+       flex-direction:column;
+    }
+    .image{
+        max-width: 100%;
+        padding: 20px;
+     }
+     .aboutjpg{
+        max-width: 100%;
+     }
+     .content{
+        margin-left: 20px;
+        max-width: 100%;
+     }
+    
+     .imgcontainer{
+        width: 100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+     }
+     .div2{
+        width: 100%;
+       
+     }
+     .div3{
+        width: 100%;
+       
+     }
+     .div6{
+        width: 100%;
+        height: 50%;
+        
+     }
+     .div7{
+        width: 100%;
+        height: 50%;
+       
+        display: flex;
+        flex-direction: row;
+     }
+     .div4{
+        width: 50%;
+        height: 100%;
+        
+     }
+     .div4 img{
+        
+        width: 100%;
+        
+     }
+     .div6 img{
+        
+        width: 100%;
+     }
+     .div3 img{
+       height: 90%;
+        width: 100%;
+     }
+     .popular{
+        display: flex;
+        flex-direction: column;
+     }
+     .courses{
+        width: 90%;
+        margin: 2%;
+        background-color: rgb(242, 255, 251);
+        margin: 3%;
+     }
+     .instructors{
+        display: flex;
+        flex-direction: column;
+     }
+     .idetails{
+        width: 95%;
+        background-color: rgb(242, 255, 251);
+        margin: 2%;
+     }
+     
+     
+     .social{
+        
+        width: 50%;
+     }
+     .hbtn{
+      width: 80%;
+      position: absolute;
+      top: 1%;
+      left: 8%;
+      height:200px ;
+    }
+ 
+}
